@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine On
+RewriteRule ^rout/(.*)/(.*)/(.*)$ routeurTest.php?cnt=$1&act=$2&id=$3 	 [L]
+RewriteRule ^$ routeurTest.php 	 [L]
