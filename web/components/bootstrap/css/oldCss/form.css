@@ -1,0 +1,24 @@
+ #monForm2 {
+   float:right;
+   margin-top:-290px;
+}
+ fieldset {
+     width: 400px;
+	 border-color:#00CC00;
+	 border:2px solid #DF3F3F;
+	
+	 
+     }
+ div.left {
+     width: 50%;
+    // float: left;
+	  font-weight : bold;
+     }
+ div.left p {
+     text-align: right;
+     margin-right: 30px;
+     }
+ div.right {
+     width: 50%;
+   //  float: left;
+     }

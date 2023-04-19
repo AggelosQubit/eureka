@@ -1,0 +1,19 @@
+Eric Belone:
+Des commentaires précisant l'utilité de certaines fonctions, variables ou fichiers ont déja été ajoutés.
+
+Voici juste un récapitulatif:
+
+J'ai uniquement travailler sur la génération de facture pdf, dont l'explication de la biblothèque employé et des
+méthodes de celles-ci on été mis en commentaires dans le code. le fichier que j'ai créer prepatele est le seul fichier chargé de generer
+les factures dynamiquement. 
+
+De manière générale c'est vraiment terminé, il manque juste des détails pour le peaufiner un peu, les manquements
+sont expliqués dans l'entête du fichier. Il faudra éventuellement voir si il ne faut pas modifier certaines fonctions dans le fichier MysqlDao.php.
+le fichier facture possède un bouton possèdant un léger bug, le problème est brièvement décrit expliquer dedans.
+
+J'ai aussi rajouter quelques colonnes dans la bases de données correspondant a des informations de formulaires a remplir
+lors de l'inscription d'un client. Il reste la gestion d'erreur dans ce formulaire à implémenter correctement et la sécurité éventuellement lors de la transition des variables
+ou pour empêcher qu'un utilisateur écris du code malveillants. 
+
+
+la partie css est aussi à perfectionner.
